@@ -1,5 +1,15 @@
+body{
+  margin: 0px;
+  height:1440px;
+  width: 1440px;
+}
 header{
-  height:100px;
-  width:1500px;
+  height:144px;
+  width: inherit;
   background-color: black;
+}
+article{
+  height: 20%;
+  width: auto;
+  margin: 0 auto;
 }
