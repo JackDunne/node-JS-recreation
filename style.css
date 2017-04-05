@@ -1,5 +1,5 @@
 body{
-  margin: 0px;
+  margin: 10px;
   height:1440px;
   width: 1440px;
 }
@@ -7,9 +7,42 @@ header{
   height:144px;
   width: inherit;
   background-color: black;
+
+}
+header img{
+  height: 75%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#buttons{
+  height:20px;
+  width:inherit;
+  margin:0 25%;
+}
+
+button{
+  background-color: black;
+  border-right:1px;
+  border-color:black;
+  border-left: 1px;
+  border-color: black;
+  color:gray;
 }
 article{
   height: 20%;
-  width: auto;
+  width: inherit;
   margin: 0 auto;
+  background-color:#fff;
+}
+
+article img{
+  height: inherit%;
+  width: inherit;
+}
+
+#paragraph{
+  height:150px;
+  width:inherit;
+  margin:0 auto;
 }
