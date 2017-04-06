@@ -1,7 +1,7 @@
 body{
   margin: 10px;
   height:1440px;
-  width: 1440px;
+  width: 1400px;
 }
 header{
   height:144px;
@@ -29,20 +29,40 @@ button{
   border-color: black;
   color:gray;
 }
-article{
-  height: 20%;
-  width: inherit;
-  margin: 0 auto;
-  background-color:#fff;
-}
 
-article img{
-  height: inherit%;
+#firstpicture{
+  height: auto;
   width: inherit;
+  background-color: #fff;
+  border: 20px solid green;
+  margin:0 auto;
+}
+#firstpicture img{
+  width: inherit;
+  height: auto;
 }
 
 #paragraph{
-  height:150px;
+  height:auto;
   width:inherit;
-  margin:0 auto;
+  margin:5% auto;
+}
+
+#paragraph p{
+  text-align: center;
+  margin:0 25%;
+  font-size:20px;
+  font-family: helvetica,serif;
+}
+
+#boldwords{
+  height:auto;
+  width:inherit;
+  margin:3% auto;
+}
+
+#boldwords p{
+  text-align: center;
+  font-size: 40px;
+  font-family: helvetica,serif;
 }
