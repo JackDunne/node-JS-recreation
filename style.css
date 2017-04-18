@@ -67,12 +67,16 @@ button{
   font-family: helvetica,serif;
 }
 
+article{
+  height: 500px;
+  width: 1000px;
+}
 #fakebutton1{
-  height:25%;
+  height:200px;
   width:25%;
-  float:left;
+  float: left;
   background-color: green;
-  margin:10% 25%;
+  margin:0 30%;
 }
 
 #fakebutton1 p{
@@ -82,15 +86,26 @@ button{
 }
 
 #fakebutton2{
-  height:50%;
+  height:200px;
   width:25%;
-  background-color: green;
-  margin:10% 25%;
-  float:right;
+  background-color: blue;
+  margin:0 30%;
 }
 
 #fakebutton2 p{
   font-size: 20px;
   font-family: helvetica, serif;
   color:#fff;
+}
+
+footer{
+  background-color: black;
+  height:auto;
+  width: inherit;
+}
+
+footer p{
+  color: #fff;
+  font-family: helvetica, serif;
+  font-size: 20px;
 }
