@@ -1,7 +1,7 @@
 body{
   margin: 10px;
   height:1440px;
-  width: 1400px;
+  width: 1450px;
 }
 header{
   height:144px;
@@ -72,11 +72,11 @@ article{
   width: 1000px;
 }
 #fakebutton1{
-  height:200px;
+  height:150px;
   width:25%;
   float: left;
   background-color: green;
-  margin:0 30%;
+  margin:0 25%;
 }
 
 #fakebutton1 p{
@@ -86,10 +86,10 @@ article{
 }
 
 #fakebutton2{
-  height:200px;
+  height:150px;
   width:25%;
-  background-color: blue;
-  margin:0 30%;
+  background-color: green;
+  margin:0 25%;
 }
 
 #fakebutton2 p{
