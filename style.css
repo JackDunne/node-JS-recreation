@@ -89,7 +89,7 @@ article{
   height:150px;
   width:25%;
   background-color: green;
-  margin:0 25%;
+  margin:0 75%;
 }
 
 #fakebutton2 p{
@@ -100,7 +100,7 @@ article{
 
 footer{
   background-color: black;
-  height:auto;
+  height:500px;
   width: inherit;
 }
 
@@ -108,4 +108,5 @@ footer p{
   color: #fff;
   font-family: helvetica, serif;
   font-size: 20px;
+  text-align: left;
 }
